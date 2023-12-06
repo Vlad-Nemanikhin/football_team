@@ -2,9 +2,10 @@
   "name": "football_team",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://Vlad-Nemanikhin.github.io/football_team",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/*.html",
+    "build": "parcel src/*.html --public-url /football_team/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/Vlad-Nemanikhin/football_team/issues"
   },
-  "homepage": "https://github.com/Vlad-Nemanikhin/football_team#readme"
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
