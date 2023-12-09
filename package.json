@@ -2,10 +2,10 @@
   "name": "football_team",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://Vlad-Nemanikhin.github.io/football_team",
+  "homepage": "https://Vlad-Nemanikhin.github.io/football_team/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel src/*.html --public-url /football_team/"
+    "build": "parcel build src/*.html --public-url /football_team/"
   },
   "repository": {
     "type": "git",
